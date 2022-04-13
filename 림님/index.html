@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>forest season</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
-
+    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
 
@@ -62,7 +63,9 @@
     </header>
     <div class="category_menu">
         <ul class="category">
-            <li class="cat on"><a href="#">home</a></li>
+            <li class="cat on"><a href="#"><span class="material-icons">
+                home
+                </span></a></li>
             <li class="cat"><a href="#">셀러드 소개</a></li>
             <li class="cat"><a href="#">품앗이</a></li>
             <li class="cat"><a href="#">디자인의뢰</a></li>
@@ -70,7 +73,11 @@
             <li class="cat"><a href="#">커뮤니티</a></li>
             <li class="cat"><a href="#">셀러드센터</a></li>
             <li class="cat"><a href="#">파트너신청</a></li>
-            <li class="cat"><a href="#">menu</a></li>
+            <li class="cat"><a href="#"> 
+                <span></span>
+                <span></span>
+                <span></span>
+                menu</a></li>
         </ul>
     </div>
     <div class="content">
@@ -186,7 +193,12 @@
                         
                         <input type="hidden" >
                         <div class="input_login">
-                            <span></span>
+                            
+                                <span class="material-icons">
+                                    account_circle
+                                    </span>
+                            
+                            
                             <input type="text" name="#" placeholder="아이디" >
                             <div class="input_search_btn">
                                 <i class="search_icon"></i>
@@ -197,7 +209,9 @@
                         
                         <input type="hidden">
                         <div class="input_login">
-                            <span></span>
+                            <span class="material-icons">
+                                lock
+                                </span>
                             <input type="password" name="#"  placeholder="비밀번호">
                             <div class="input_search_btn">
                                 <i class="search_icon"></i>
@@ -213,8 +227,8 @@
                             <span class="circle"></span><p>자동로그인</p>
                         </div>
                         <ul class="sign_search">
-                            <li>회원가입</li>
-                            <li>정보찾기</li>
+                            <li><a href="#">회원가입</a> </li>
+                            <li><a href="#">정보찾기</a> </li>
                         </ul>
                     </div>
 
