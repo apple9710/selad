@@ -1,7 +1,7 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
-@import url('font.css');
 
+body{background-color:#eee}
 input {box-sizing: border-box;}
 input:focus{outline:none;}
 /* header start*/
@@ -31,6 +31,7 @@ input:focus{outline:none;}
 
 .category_menu{background-color:#A0D468 ;width:100%; height:50px; box-shadow: 0 5px 10px rgba(0,0,0,0.3)}
 .category {width:1200px; margin:auto; display:flex; align-items: center;justify-content: space-between;height:100%;}
+.category .cat.on a{background-color:#8cc252}
 .category .cat:first-child span{font-size:32px;text-align: center;line-height:50px;}
 .category .cat:first-child,
 .category .cat:last-child{width:50px;}
@@ -95,7 +96,7 @@ input:focus{outline:none;}
 /* cont end */
 
 /* side_wrap */
-.side_wrap{width:20%;}
+.side_wrap{width:20%; padding:5px;}
 .side_wrap .idPw{margin-top:20px;}
 .side_wrap .idPw .input_login{display:flex;}
 .side_wrap .idPw .input_login:nth-child(2){margin-top:10px;}
@@ -118,8 +119,23 @@ input:focus{outline:none;}
 .info_wrap .sign_search{display:flex;}
 .info_wrap .sign_search li {font-size:14px;line-height:18px;font-weight:700;color:#aaa;padding:0 5px;border-right:1px solid #aaa;}
 .info_wrap .sign_search li:last-child{border-right:none;}
-
+.side_wrap .board_top {width:100%; margin-top:20px;}
+.side_wrap .board_title{font-size:16px;font-weight:700;}
 
 /* side_wrap end */
 
 /* content end */
+
+
+/* 게시판 쪽 CSS */
+.top_co{height:80px;background-color:rgb(250, 250, 250);border-bottom:1px solid #aaa;}
+.top_section{width:1200px;margin:auto;}
+.top_board_area{display:flex;justify-content: space-between;width:100%;}
+.sub_title{font-size:30px;font-weight:300;margin-top:35px;}
+.main_cont {width:1200px; margin:auto;text-align: center;background-color:#fff}
+.main_cont.introduce{height:1000px;}
+.main_cont .img_logo{ margin-top:100px;margin-bottom:50px;}
+
+
+.main_cont .tab_menu_list {display:flex;width:100%; height:40px;}
+.main_cont>.tab_menu_list>.menu_tit {display:block; padding:10px;border-radius: 20px 20px 0 0;background-color:#aaa;}

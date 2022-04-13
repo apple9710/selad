@@ -9,7 +9,7 @@ $(document).ready(function() {
 
         
 
-        $(this).toggleClass('on').siblings().removeClass('on');
+        // $(this).toggleClass('on').siblings().removeClass('on');
     })
     
     
