@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+@media screen and (max-width:1200px){
+
+
+    .header{width:800px;}
+
+
+    .category_menu{position:sticky;top:0px;}
+    .category{width:800px;}
+    .category .cat{display:none;}
+    .category .cat:first-child,
+    .category .cat:last-child{display:block;}
+    .side_wrap{display:none;}
+
+
+    .cont_wrap{width:800px;}
+    .cont{width:100%;}
+
+
+    .img_board_list a img {width:250px;}
+
+}
+
+@media screen and (max-width:875px){
+.header{width:400px;}
+.top_menu_area{display:none;}
+.category{width:400px;}
+.cont_wrap{width:400px;}
+
+.board_wrap{display:block;}
+.board_top{width:100%; margin-top:40px;}
+
+
+.img_board_list{width:360px; display:block}
+.img_board_list li{width:100%;}
+.img_board_list li>a{width:100%;}
+.img_board_list a img {width:100%;}
+}
