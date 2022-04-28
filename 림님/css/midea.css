@@ -19,21 +19,24 @@
 
 
     .img_board_list a img {width:250px;}
-
+    .slide_menu.isActive{ width:40%;}
 }
 
 @media screen and (max-width:875px){
-.header{width:400px;}
+.header{width:360px;}
 .top_menu_area{display:none;}
-.category{width:400px;}
-.cont_wrap{width:400px;}
+.category{width:360px;}
+.cont_wrap{width:360px;}
 
 .board_wrap{display:block;}
 .board_top{width:100%; margin-top:40px;}
 
-
+.galary{width:360px;padding:20px 0;}
 .img_board_list{width:360px; display:block}
-.img_board_list li{width:100%;}
+.img_board_list li{width:100%;margin:20px 0px;}
 .img_board_list li>a{width:100%;}
 .img_board_list a img {width:100%;}
+
+
+.slide_menu.isActive{ width:80%;}
 }

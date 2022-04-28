@@ -11,11 +11,75 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/midea.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ricostacruz.com/jquery.transit/jquery.transit.min.js"></script>
     <script src="js/script.js"></script>
 
    
 </head>
 <body>
+
+    <div class="slide_menu">
+        <div class="menu_top">
+            <div class="top_logo">셀러드</div>
+            <div class="x_btn"><span></span><span></span></div>
+        </div>
+
+        <ul class="login_list">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">정보찾기</a></li>
+        </ul>
+        <div class="menu_list">
+            <h3>메뉴</h3>
+            <ul class="menu_child">
+                <li class="active"><div class="mini"><a href="intro.html" >셀러드 소개 </a><div class="btnPlus">
+                    <span></span>
+                    <span></span>
+                </div> 
+            </div> 
+                <ul class="sub_menu">
+                    <li> <a href="#">셀러드 소개</a> </li>
+                    <li> <a href="#">셀러드 이용방법</a> </li>
+                </ul></li>
+                <li> <div class="mini"> <a href="#">품앗이</a> </div></li>
+                <li> <div class="mini"> <a href="#">디자인의뢰</a> </div></li>
+                <li> <div class="mini"> <a href="#">셀러샵</a> </div></li>
+                <li> <div class="mini"> <a href="#">커뮤니티</a><div class="btnPlus">
+                    <span></span>
+                    <span></span>
+                </div> </div>
+                    <ul class="sub_menu">
+                        <li> <a href="#">수다방</a> </li>
+                        <li> <a href="#">갤러리</a> </li>
+                    </ul></li>
+                <li> <div class="mini"> <a href="#">셀러드 센터</a><div class="btnPlus">
+                    <span></span>
+                    <span></span>
+                </div>  </div>
+                    <ul class="sub_menu">
+                        <li> <a href="#">공지사항</a> </li>
+                        <li> <a href="#">버그문의</a> </li>
+                    </ul></li>
+                <li> <div class="mini"> <a href="#">파트너 신청</a> </div></li>
+            </ul>
+        </div>
+
+        
+
+        <ul class="category_list">
+            <li><a href="#"> 새글 </a> </li>
+            <li><a href="#"> 검색 </a> </li>
+            <li><a href="#"> 1:1문의 </a> </li>
+            <li><a href="#"> 더보기 </a> </li>
+            <li><a href="#"> FAQ </a> </li>
+            <li><a href="#"> 태그모음 </a> </li>
+            <li><a href="#"> 신고모음 </a> </li>
+            <li><a href="#"> 접속자 </a> </li>
+            <li><a href="#"> 닫기 </a> </li>
+        </ul>
+        
+
+    </div>
     <header class="header">
         <div class="top_menu_area">
             <ul class="left_menu">
@@ -59,6 +123,8 @@
             </div>
         </div>
         
+            
+        </div>
         
     </header>
     <div class="category_menu">
@@ -66,14 +132,26 @@
             <li class="cat on"><a href="#"><span class="material-icons">
                 home
                 </span></a></li>
-            <li class="cat"><a href="intro.html">셀러드 소개</a></li>
+            <li class="cat"><a href="intro.html">셀러드 소개</a>
+                <ul class="sub_menu">
+                    <li> <a href="#">셀러드 소개</a> </li>
+                    <li> <a href="#">셀러드 이용방법</a> </li>
+                </ul></li>
             <li class="cat"><a href="#">품앗이</a></li>
             <li class="cat"><a href="#">디자인의뢰</a></li>
             <li class="cat"><a href="#">셀러샵</a></li>
-            <li class="cat"><a href="#">커뮤니티</a></li>
-            <li class="cat"><a href="#">셀러드센터</a></li>
+            <li class="cat"><a href="#">커뮤니티</a>
+                <ul class="sub_menu">
+                    <li> <a href="#">수다방</a> </li>
+                    <li> <a href="#">갤러리</a> </li>
+                </ul></li>
+            <li class="cat"><a href="#">셀러드센터</a>
+                <ul class="sub_menu">
+                    <li> <a href="#">공지사항</a> </li>
+                    <li> <a href="#">버그문의</a> </li>
+                </ul></li>
             <li class="cat"><a href="#">파트너신청</a></li>
-            <li class="cat"><a href="#"> 
+            <li class="cat slide_open"><a href="#"> 
                 <span></span>
                 <span></span>
                 <span></span>
